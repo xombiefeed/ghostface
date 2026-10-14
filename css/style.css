@@ -17,11 +17,16 @@ header{
     padding: 20px;
 }
 
-header img{
+header .pfp{
     width: 300px;
     height: 300px;
     border: 30px solid rgb(147, 2, 2);
     border-radius: 50%;
+    background-image: url('./../img/ghostface-pfp.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header h1{
